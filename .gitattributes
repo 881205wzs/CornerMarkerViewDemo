@@ -1,2 +1,2 @@
-*.java linguist-language=Android
-*.class linguist-language=Android
+*.java linguist-language=Groovy
+*.class linguist-language=Groovy
