@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.davis.cornermarker.LTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:background="#f1f1f1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        app:corner_text="1"
+        app:corner_bottom_line_state="true"
+        app:corner_position="LEFT_TOP">
+
+    </com.davis.cornermarker.LTextView>
+
+    <com.davis.cornermarker.LTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试测试"
+        android:background="#f1f1f1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        app:corner_text="60"
+        app:corner_bottom_line_state="false"
+        app:corner_position="RIGHT_TOP">
+
+    </com.davis.cornermarker.LTextView>
+
+    <com.davis.cornermarker.LTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试测试测试"
+        android:background="#f1f1f1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        app:corner_text="200"
+        app:corner_bottom_line_state="true"
+        app:corner_bottom_line_color="#ff0000"
+        app:corner_position="LEFT_BOTTOM">
+
+    </com.davis.cornermarker.LTextView>
+
+
+    <com.davis.cornermarker.LTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试测试测试测试"
+        android:background="#f1f1f1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        app:corner_text="200"
+        app:corner_bottom_line_state="true"
+        app:corner_bottom_line_color="#ff0000"
+        app:corner_bottom_line_width="80dp"
+        app:corner_position="RIGHT_BOTTOM">
+
+    </com.davis.cornermarker.LTextView>
+
+</LinearLayout>

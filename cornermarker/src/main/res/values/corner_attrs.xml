@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LCorner">
+        <attr name="corner_background" format="reference|color"/>
+        <attr name="corner_text_color" format="reference|color"/>
+        <attr name="corner_text_size" format="dimension"/>
+        <attr name="corner_text" format="string"/>
+        <attr name="corner_position" format="enum">
+            <enum name="LEFT_TOP" value="1"/>
+            <enum name="RIGHT_TOP" value="2"/>
+            <enum name="LEFT_BOTTOM" value="3"/>
+            <enum name="RIGHT_BOTTOM" value="4"/>
+        </attr>
+        <attr name="corner_bottom_line_color" format="reference|color"/>
+        <attr name="corner_bottom_line_state" format="boolean"/>
+        <attr name="corner_bottom_line_width" format="dimension"/>
+    </declare-styleable>
+
+</resources>
